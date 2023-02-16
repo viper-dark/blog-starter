@@ -1,0 +1,240 @@
+/* custom */
+#insta{
+    margin: 10px 40px;
+}
+/* ************************************************************* */
+/* game section style*/
+
+/* ************************************************************* */
+@media screen and (min-width: 1200px){ 
+    .desktopcenter { 
+      width: 600px; 
+      display: block; 
+      position: relative; 
+      margin: auto;
+    } 
+  
+    .desktoplayout { 
+      width: 1250px; 
+      margin: auto;
+    } 
+  }     
+  
+  body { 
+      background-color:  rgb(54, 51, 89);
+      border-color:   #736b5e; 
+      color:   #e8e6e3;
+      font-family:  roboto,sans-serif; 
+      margin:  0;
+  } 
+  
+  html { 
+      background-color:   #181a1b;
+      color-scheme:   dark !important;
+      border-color: #736b5e; 
+      color: #e8e6e3;
+  } 
+  
+  .content { 
+      display: block; 
+      margin-left: auto; 
+      margin-right: auto; 
+      width: 600px;
+  } 
+  
+  :selection { 
+      background-color: #004daa !important; 
+      color: #e8e6e3 !important;
+  } 
+  
+  :-webkit-scrollbar { 
+      background-color: #202324; 
+      color: #aba499;
+  } 
+  
+  :-webkit-scrollbar-thumb { 
+      background-color: #454a4d;
+  } 
+  
+  :-webkit-scrollbar-corner { 
+      background-color: #181a1b;
+  } 
+  
+  #results { 
+      text-align:   center;
+      background-color:  rgb(24, 26, 27) !important;
+      visibility:  hidden;
+  } 
+  
+  #results  { 
+      border:  1px solid gray; 
+      border-radius:  3px; 
+      background-color:  rgb(34, 36, 38); 
+      box-shadow:  rgba(0, 0, 0, 0.5) 0px 2px 3px;
+      width:  96%; 
+      margin:  20px auto;
+      border-color: rgb(84, 91, 94); 
+  } 
+  
+  #speed { 
+      text-align: center;
+  } 
+  
+  #speed  { 
+      border:  1px solid gray; 
+      border-radius:  3px; 
+      background-color:  rgb(34, 36, 38); 
+      box-shadow:  rgba(0, 0, 0, 0.5) 0px 2px 3px;
+      width:  96%; 
+      margin:  20px auto;
+      border-color: rgb(84, 91, 94); 
+  } 
+  
+  #file { 
+      text-align: center;
+  } 
+  
+  #file  { 
+      border:  1px solid gray; 
+      border-radius:  3px; 
+      background-color:  rgb(34, 36, 38); 
+      box-shadow:  rgba(0, 0, 0, 0.5) 0px 2px 3px;
+      width:  96%; 
+      margin:  20px auto;
+      border-color: rgb(84, 91, 94); 
+  } 
+  
+  .login-top-colour { 
+      content:  ''; 
+      position:  relative; 
+      bottom:  0; 
+      left:  0; 
+      right:  0; 
+      height:  8px; 
+      background:  #c4e17f; 
+      border-radius:  5px 5px 0 0; 
+      background-image:  linear-gradient(to right, rgb(74, 89, 21), rgb(74, 89, 21) 12.5%, rgb(56, 61, 2) 12.5%, rgb(56, 61, 2) 25%, rgb(136, 91, 1) 25%, rgb(136, 91, 1) 37.5%, rgb(134, 24, 14) 37.5%, rgb(134, 24, 14) 50%, rgb(96, 35, 68) 50%, rgb(96, 35, 68) 62.5%, rgb(72, 33, 98) 62.5%, rgb(72, 33, 98) 75%, rgb(26, 72, 134) 75%, rgb(26, 72, 134) 87.5%, rgb(24, 108, 138) 87.5%, rgb(24, 108, 138));
+      background-image:  linear-gradient(to right, rgb(74, 89, 21), rgb(74, 89, 21) 12.5%, rgb(56, 61, 2) 12.5%, rgb(56, 61, 2) 25%, rgb(136, 91, 1) 25%, rgb(136, 91, 1) 37.5%, rgb(134, 24, 14) 37.5%, rgb(134, 24, 14) 50%, rgb(96, 35, 68) 50%, rgb(96, 35, 68) 62.5%, rgb(72, 33, 98) 62.5%, rgb(72, 33, 98) 75%, rgb(26, 72, 134) 75%, rgb(26, 72, 134) 87.5%, rgb(24, 108, 138) 87.5%, rgb(24, 108, 138));
+      background-image:  linear-gradient(to right, rgb(74, 89, 21), rgb(74, 89, 21) 12.5%, rgb(56, 61, 2) 12.5%, rgb(56, 61, 2) 25%, rgb(136, 91, 1) 25%, rgb(136, 91, 1) 37.5%, rgb(134, 24, 14) 37.5%, rgb(134, 24, 14) 50%, rgb(96, 35, 68) 50%, rgb(96, 35, 68) 62.5%, rgb(72, 33, 98) 62.5%, rgb(72, 33, 98) 75%, rgb(26, 72, 134) 75%, rgb(26, 72, 134) 87.5%, rgb(24, 108, 138) 87.5%, rgb(24, 108, 138));
+      background-image:  linear-gradient(to right, rgb(74, 89, 21), rgb(74, 89, 21) 12.5%, rgb(56, 61, 2) 12.5%, rgb(56, 61, 2) 25%, rgb(136, 91, 1) 25%, rgb(136, 91, 1) 37.5%, rgb(134, 24, 14) 37.5%, rgb(134, 24, 14) 50%, rgb(96, 35, 68) 50%, rgb(96, 35, 68) 62.5%, rgb(72, 33, 98) 62.5%, rgb(72, 33, 98) 75%, rgb(26, 72, 134) 75%, rgb(26, 72, 134) 87.5%, rgb(24, 108, 138) 87.5%, rgb(24, 108, 138));
+      background-color: rgb(74, 89, 21); 
+  } 
+  
+  h3 { 
+      color:  rgb(189, 183, 175);
+  } 
+  
+  #speed .idkSpeed  { 
+      font-size: 8pt; 
+      line-height: 3;
+  } 
+  
+  #results .time  { 
+      font-style: normal; 
+      font-size: 28px;
+  } 
+  
+  a { 
+      color: #3391ff;
+  } 
+  
+  input { 
+      background-color:  rgb(24, 26, 27); 
+      border-color:  rgb(54, 58, 60); 
+      color:   #e8e6e3;
+      margin:  2px; 
+      font-size:  18px; 
+      background:  #fff; 
+      border:  2px solid #ebebeb; 
+      border-radius:  4px; 
+      -webkit-box-shadow:  inset 0 -2px #ebebeb; 
+      box-shadow:  rgb(35, 38, 40) 0px -2px inset;
+      background-image: initial; 
+  } 
+  
+  #internetSpeed_p { 
+      padding: 18px 22px;
+  } 
+  
+  #speed input  { 
+      text-align: right;
+  } 
+  
+  input[type="number"] { 
+      -moz-appearance: textfield;
+  } 
+  
+  #internetSpeed { 
+      width: 75px; 
+      padding: 18px 7px 18px 18px;
+  } 
+  
+  select { 
+      background-color:    #181a1b;
+      border-color:  initial;
+      color:   #e8e6e3;
+      padding:  18px 10px; 
+      border:  0; 
+      font-size:  18px; 
+      margin:  2px;
+  } 
+  
+  .collapse { 
+      display:  block; 
+      font-size:  8pt; 
+      line-height:  44px; 
+      color:  rgb(152, 143, 129);
+  } 
+  
+  .collapse + input  { 
+      display: none;
+  } 
+  
+  .collapse + input + div  { 
+      display: none;
+  } 
+  
+  #file input  { 
+      text-align:  right;
+      font-size: 16pt;
+  } 
+  
+  #fileSize { 
+      width: 75px; 
+      padding: 18px 7px 18px 18px;
+  } 
+  
+  button { 
+      background-color:  rgb(101, 138, 52); 
+      border-color:    #736b5e; 
+      color:  rgb(232, 230, 227); 
+      text-align:   center;
+      border-bottom:  5px solid #669644!important; 
+      text-shadow:  rgb(82, 120, 54) 0px -2px; 
+      border-radius:  6px; 
+      font-weight:  700; 
+      border:  none; 
+      width:  187px; 
+      height:  54px; 
+      position:  relative; 
+      font-size:  17px; 
+      cursor:  pointer; 
+      margin-top:  0; 
+      top:  9px;
+      border-top-color: initial; 
+      border-right-color: initial; 
+      border-left-color: initial; 
+      border-bottom-color: rgb(89, 130, 59) !important;
+  } 
+  
+  #calculateButton { 
+      padding-left: 1em; 
+      padding-right: 1em;
+  } 
+  
+  .overhead-p { 
+      font-size: 8pt;
+  } 
+  
+  
+  
