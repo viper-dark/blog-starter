@@ -28,15 +28,15 @@ const p = document
     const bandInBYTE= bandwidth / 8
     function secondsToDhms(seconds) {
       seconds = Number(seconds);
-      let d = Math.floor(seconds / (3600*24));
-      let h = Math.floor(seconds % (3600*24) / 3600);
-      let m = Math.floor(seconds % 3600 / 60);
-      let s = Math.floor(seconds % 60);
+      var d = Math.floor(seconds / (3600*24));
+      var h = Math.floor(seconds % (3600*24) / 3600);
+      var m = Math.floor(seconds % 3600 / 60);
+      var s = Math.floor(seconds % 60);
       
-      let dDisplay = d > 0 ? d + (d == 1 ? " day, " : " days, ") : "";
-      let hDisplay = h > 0 ? h + (h == 1 ? " hour, " : " hours, ") : "";
-      let mDisplay = m > 0 ? m + (m == 1 ? " minute, " : " minutes, ") : "";
-      let sDisplay = s > 0 ? s + (s == 1 ? " second" : " seconds") : "";
+      var dDisplay = d > 0 ? d + (d == 1 ? " يوم, " : " أيام, ") : "";
+      var hDisplay = h > 0 ? h + (h == 1 ? " ساعة, " : " ساعات, ") : "";
+      var mDisplay = m > 0 ? m + (m == 1 ? " دقيقة, " : " دقائق, ") : "";
+      var sDisplay = s > 0 ? s + (s == 1 ? " ثانية" : " ثواني") : "";
       return dDisplay + hDisplay + mDisplay + sDisplay;
       }
       console.log(secondsToDhms(timeInS))
@@ -58,7 +58,11 @@ const p = document
     }
 
     document.getElementsByClassName("time")[0].innerHTML = secondsToDhms(timeInS);
+console.log(secondsToDhms(timeInS))
     document.getElementsByClassName("speed")[0].innerHTML = downS;
+    var select = document.getElementById('fileSizeBase');
+var text = select.options[select.selectedIndex].text;
+    document.getElementsByClassName("size")[0].innerHTML =size+text
 
     // alert("the speed "+speed+ "base "+speedBase)
   });
